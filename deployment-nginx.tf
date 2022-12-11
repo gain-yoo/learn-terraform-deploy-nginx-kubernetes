@@ -1,6 +1,6 @@
 resource "kubernetes_deployment" "nginx" {
   metadata {
-    name = "ingress-nginx"
+    name = "deployment-nginx"
     labels = {
       App = "ScalableNginx"
     }
